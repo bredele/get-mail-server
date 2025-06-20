@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Get hostname of the mail server where incoming emails should be delivered for a given domain.",
   "main": "dist/cjs/index.js",
+  "files": ["dist"],
   "exports": {
     "import": {
       "types": "./dist/index.d.ts",
@@ -21,10 +22,7 @@
     "typecheck": "tsc --noEmit",
     "test": "npm run build && node --test dist/cjs/src/index.test.js"
   },
-  "keywords": [
-    "email",
-    "pattern"
-  ],
+  "keywords": ["email", "pattern"],
   "author": "Olivier Wietrich",
   "license": "MIT",
   "devDependencies": {
@@ -32,5 +30,8 @@
     "@swc/core": "^1.12.3",
     "@types/node": "^24.0.3",
     "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
