@@ -4,7 +4,7 @@ Get hostname of the mail server where incoming emails should be delivered for a 
 
 ## Installation
 
-```sh
+```
 $ npm install @bredele/get-mail-server
 ```
 
