@@ -1,8 +1,8 @@
 {
   "name": "@bredele/get-mail-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get hostname of the mail server where incoming emails should be delivered for a given domain.",
-  "main": "dist/cjs/index.js",
+  "main": "dist/cjs/src/index.js",
   "files": ["dist"],
   "exports": {
     "import": {
